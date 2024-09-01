@@ -1,0 +1,28 @@
+<!-- create.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Timeline Entry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Create a Timeline Entry</h1>
+    <form id="entry-form">
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+
+        <label for="note">Note:</label>
+        <textarea id="note" required></textarea>
+
+        <label for="image">Image:</label>
+        <input type="file" id="image" accept="image/*">
+
+        <button type="submit">Add Entry</button>
+    </form>
+    <a href="index.html" class="back-btn">Back to Timeline</a>
+
+    <script src="create.js"></script>
+</body>
+</html>

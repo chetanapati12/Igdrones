@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Timeline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interactive Timeline</h1>
+
+    <div id="content-display" class="content-display">
+        <div class="content-container">
+            <img id="content-image" src="" alt="Timeline Entry Image">
+            <div class="text-content">
+                <h2 id="content-title"></h2>
+                <p id="content-note"></p>
+                <button id="delete-entry-btn" class="delete-entry-btn">Delete Entry</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="timeline-container" class="timeline-container">
+        <div id="timeline" class="timeline">
+            <!-- Dates will be injected here by JavaScript -->
+            <div class="timeline-line"></div>
+        </div>
+    </div>
+
+    <a href="create.html" class="add-entry-btn">Add New Entry</a>
+
+    <script src="index.js"></script>
+</body>
+</html>
